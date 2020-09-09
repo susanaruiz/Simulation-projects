@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{anysize}
+\usepackage[usenames]{color}
+\usepackage{booktabs}
+\usepackage{pgf,pgfarrows,pgfnodes}
+\usepackage{float}
+\bibliographystyle{mighelbib}
+\addcontentsline{toc}{chapter}{Bibliografía}
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+	\huge{\textbf{Tarea 0 Archivo Prueba de latex}}
+	\line(1,0) {300}\\
+	
+	\textsc{ \Large Susana Ruiz Nuñez \\ 2032426} 
+	\end{center}
+	
+\end{titlepage}
+
+\newpage
+\section{Tarea 0 Archivo prueba de latex}
+
+
+Documento para aprender a trabajar en latex. Utilización de diferentes funciones... \cite{Dyckhoff1990}
+
+\subsection{Crear tablas}
+
+
+\begin{table}[H]
+\centering
+\caption{Figura Crear tablas}
+\begin{tabular}{|c|c|c|}
+\hline 
+\textbf{Programa} & A & B \\ 
+\hline 
+\textbf{Python} & 6 horas & 8 horas \\ 
+\hline 
+\textbf{R} & 0.5 horas & 0.75 horas \\ 
+\hline 
+\textbf{Latex} & 120 & 160 \\ 
+\hline 
+\textbf{PDF} & 6.00 & 8.00 \\ 
+\hline 
+\end{tabular}
+\end{table}
+
+\subsection{Numeración}
+\begin{itemize}
+\item $A_{i}$ = Alfa $i$ 
+\item $B_{i}$ = Beta $i$
+\item $C_{i}$ = Ceta $i$
+\item $D_{i}$ = Di $i$
+\item $E_{ij}$ = Extra $j$
+\end{itemize}
+
+
+
+\section{Bibliografía}
+
+\bibliography{Tarea0biblio}
+
+\end{document}
