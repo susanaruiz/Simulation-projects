@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc}
+\usepackage{anysize}
+\usepackage[usenames]{color}
+\usepackage[numbers,sort&compress]{natbib}
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+	\huge{\textbf{Tarea 0 Archivo Prueba de latex}}
+	\line(1,0) {300}\\
+	
+	\textsc{ \Large Susana Ruiz Nuñez \\ 2032426} 
+	\end{center}
+	
+\end{titlepage}
+
+\newpage
+	\section{Tarea 0 Archivo prueba de latex}
+	 Documento para aprender a trabajar en latex. Utilización de diferentes funciones... \cite{HM}
+
+\bibliography{Biblio}
+\bibliographystyle{plainnat}
+
+\end{document}
