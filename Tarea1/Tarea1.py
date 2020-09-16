@@ -1,4 +1,4 @@
-from random import random, randint
+from random import random, randint            #\cite ElisaSatu
 from math import fabs
 
 def caminata(pos, dim):
