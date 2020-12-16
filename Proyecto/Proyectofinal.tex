@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\parskip = 0.75em
+\parindent = 10mm
+\def\baselinestretch{1}
+\usepackage {float}
+\usepackage{listings}
+\usepackage{subcaption}
+\usepackage[usenames]{color}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{multirow, array}
+\usepackage[spanish]{babel}
+	\deactivatetilden
+	\spanishdecimal{.}
+	\addto\captionsspanish{\def\tablename{Tabla}}
+	\addto\captionsspanish{\def\listtablename{\'Indice de tablas}}
+
+\usepackage{amsmath,amsfonts,amssymb}
+	\allowdisplaybreaks[4]
+\usepackage{graphicx}
+	\graphicspath{{Figuras/}}
+\usepackage[clearempty,pagestyles]{titlesec}
+\usepackage{anysize}
+
+\def\baselinestretch{1.5}
+\papersize{27.9cm}{21.5cm} 
+\marginsize{2cm}{2cm}{1cm}{1cm}
+\usepackage{multicol}
+
+\begin{document}
+
+	\begin{center}
+	\huge{\textbf{Simulación de empaquetamiento de objetos poligonales}}\\
+	
+	\textsc{ \Large Susana Ruiz Nuñez}
+	\end{center}
+
+
+\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
+\begin{abstract}
+	\normalsize Un artículo suele empezarse con un resumen.\\ \\
+	Palabras clave: Empaquetamiento, simulación.
+
+	\vspace*{0.5cm}
+\end{abstract}
+
+\begin{multicols}{2}
+\section{Introducción} 
+En este proyecto
+
+\section{Antecedentes}
+Se conoce que incluso la versión unidimensional del problema de encontrar el óptimo al uso de un recurso dado, el problema clásico de la mochila, pertenece a la clase de NP-difícil de problemas de optimización. Por esta razón, la mayor parte del trabajo relacionado con problemas de corte y embalaje emplean enfoques heurísticos. No obstante, el desarrollo de métodos de solución exactos es una tarea importante para ampliar la gama de casos óptimos solucionables \cite{leao}.
+
+El problema de empaquetamiento en un rectángulo con dimensiones (largo o/y ancho) abiertas es conocido como “Bin Packing Problem”. En este problema un conjunto de objetos (por ejemplo, polígonos convexos o círculos) se debe cortar de una faja o placa de forma rectangular. Los objetos pueden ser orientados libremente. Existen dos formas a mencionar; cuando las placas de diseño necesitan ser producidas, o se encuentran ya disponibles en stock. El objetivo es minimizar el área de los rectángulos de diseño. Las placas de diseño están sujetos a los límites inferior y superior de sus anchos y longitudes \cite{roma}.
+
+
+\section{Trabajos relacionados}
+
+Se encuentran publicaciones sobre el empaquetamiento de círculos en un rectángulo que minimice el área del mismo \cite{luba}. En \cite{benn} una serie de óptimos locales se proponen para minimizar el área de un rectángulo que contiene un conjunto de círculos.
+En \cite{kall} se consideran el problema de empaque de círculos en rectángulos y otras formas geométricas. Otro trabajo que vale la pena mencionar es \cite{hifi} donde calculan el perímetro mínimo en rectángulos que encierran círculos congruentes no superpuestos. Otro enfoque interesante está propuesto en \cite{arau} donde se formuló el problema de empacar un conjunto de círculos de diferentes tamaños dentro del área del cuadrado más pequeño posible como un problema de programación no lineal (NLP) y estableció las condiciones de primer orden de optimalidad.
+
+\section{Modelo propuesto}
+
+
+\section{Implementación de la simulación}
+
+
+\section{Experimentos (diseño, resultados y discusión)}
+
+\section{Conclusiones}
+
+\section{Trabajo futuro}
+
+\bibliography{Bibliografia}
+\bibliographystyle{plainnat}
+\end{multicols}
+\end{document} 
