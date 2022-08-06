@@ -1,8 +1,8 @@
 # Simulation
 Activities and projects about Simulation in Python and R with documentation in latex. Semester august-january 2020-2021
 
-Tarea 1: movimiento Browniano
-Tarea 2: autómata celular 
+## Tarea 1: movimiento Browniano
+## Tarea 2: autómata celular 
 Tarea 3: teoría de colas 
 Tarea 4: diagramas de Voronoi 
 Tarea 5: método Monte-Carlo 
