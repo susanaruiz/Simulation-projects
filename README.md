@@ -1,2 +1,2 @@
-# simulacion
-Tareas de clases de simulacion. Semestre agosto-enero 2020-2021
+# Simulation
+Activities and projects about Simulation in Python and R. Semester august-january 2020-2021
