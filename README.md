@@ -6,7 +6,7 @@ Activities and projects about Simulation in Python and R with documentation in l
 #### Tarea 3: teoría de colas 
 #### Tarea 4: diagramas de Voronoi 
 #### Tarea 5: método Monte-Carlo 
-#### Tarea 6: sistema multiagente 
+#### Tarea 6: sistema multiagente 
 #### Tarea 7: búsqueda local 
 #### Tarea 8: modelo de urnas 
 #### Tarea 9: interacciones entre partículas 
